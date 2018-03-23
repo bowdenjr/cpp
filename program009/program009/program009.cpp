@@ -13,11 +13,10 @@ int main()
 {
 
 	/*
-	
 	Bitwise AND - &
 	Bitwise OR - |
 	Bitwise NOT - ~ (tilde)
-	Bitwise XOR - ^ (caret) - cannot have more than one alternative
+	Bitwise XOR - ^ (caret)
 	Bitwise left shift - << 
 	Bitwise right shift - >>
 	*/

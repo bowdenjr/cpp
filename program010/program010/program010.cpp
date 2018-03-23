@@ -7,6 +7,8 @@ using namespace std;
 int main()
 {
 
+	// IF THEN ELSE SYNTAX
+
 	int a =10, b = 10;
 	/*
 	cout << "Enter a: " << endl;

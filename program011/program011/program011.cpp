@@ -11,7 +11,7 @@ int main()
 
 	// Can only use char and ints for switch
 
-	/*
+	
 	int x = 0;
 	
 	switch (x) //executes all code after condition is met
@@ -29,7 +29,7 @@ int main()
 		cout << "code here when value is nothing else" << endl;
 	}
 
-	*/
+	
 
 	char x = 'd';
 

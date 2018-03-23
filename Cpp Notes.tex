@@ -1,0 +1,245 @@
+\documentclass{article}
+\title{C++ Notes}
+\author{Jonathan Bowden}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage[UKenglish]{isodate}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{cgreen}{RGB}{0,128,0}
+\definecolor{cred}{RGB}{163,21,21}
+
+%\part{The Part Title}
+%\section {The Section Title}
+%\subsection {Subsection}
+%\subsubsection {SubSubSection}
+%\paragraph {Paragraph}
+%\subparagraph {SubParagraph}
+
+\begin{document}
+
+
+\lstset{language=C++,
+	     breaklines=true,
+                basicstyle=\ttfamily,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{cred}\ttfamily,
+                commentstyle=\color{cgreen}\ttfamily,
+                morecomment=[l][\color{magenta}]{\#}
+}
+
+
+\maketitle
+
+\section{Operators}
+
+\begin{itemize}
+\item Variable Address
+
+\begin{lstlisting}
+	cout << &A << endl
+\end{lstlisting}
+
+\item Joining Strings
+
+\begin{lstlisting}
+	string combinedStrings = x + `` ''  + y; // just use plus to combine string
+\end{lstlisting}
+
+\item{Incrementing}
+
+\begin{lstlisting}
+	cout << "INCREMENTATIAON EXAMPLES" << endl;
+	int d = 1;
+	cout << d++ << endl; // returns one because it outputs d first, then increments (POST-INCREMENTATION)
+	cout << ++d << endl; // increments first (PRE-INCREMENTATION)
+
+
+	cout << "DECREMENTATIAON EXAMPLES" << endl;
+	int e = 1;
+	cout << e-- << endl; // returns one because it outputs d first, then decrements (POST-DECREMENTATION)
+	cout << --e << endl; // decrements first (PRE-DECREMENTATION)
+\end{lstlisting}
+
+\item And (conjunction)
+\begin{lstlisting}
+	cout << ((7 < 5) && (5 != 10)) << endl;
+\end{lstlisting}
+
+\item OR (disjunction)
+
+\begin{lstlisting}
+	cout << ((7 < 5) || (5 != 10)) << endl;
+\end{lstlisting}
+
+\item{Bitwise Operators}
+\begin{lstlisting}
+	/*
+	Bitwise AND - &
+	Bitwise OR - |
+	Bitwise NOT - ~ (tilde)
+	Bitwise XOR - ^ (caret)
+	Bitwise left shift - << 
+	Bitwise right shift - >>
+	*/
+\end{lstlisting}
+
+\item{}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\item{}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\item{}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\item{}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\item{}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+
+
+
+
+\section{Logic}
+
+\item{IF-THEN-ELSE}
+\begin{lstlisting}
+	if (a > b) {
+		cout << a << " > " << b << endl;
+	}
+	else if (a < b)
+		cout << a << " < " << b << endl;
+	else
+		cout << "conditions not met" << endl;
+
+\end{lstlisting}
+
+\item{SWITCH-CASE}
+Need to remember the break; command at the end of each case, or C++ will execute sequentially.
+\begin{lstlisting}
+	int x = 0;
+	
+	switch (x) //executes all code after condition is met
+	{
+	case 0:
+		cout << "code here when case is 0" << endl;
+		break;
+	case 25:
+		cout << "code here when case is 25" << endl;
+		break;
+	case 50:
+		cout << "code here when case is 50" << endl;
+		break; // stops the rest of the swtich code being executed
+	default:  
+		cout << "code here when value is nothing else" << endl;
+	}
+
+\end{lstlisting}
+
+\item{CONDITIONAL OPERATOR - ?}
+\begin{lstlisting}
+	string message  = (a > b) ? "a > b" : "a <= b";
+
+	cout << ((a > b ? a : b)) + 10 << endl; // add 10 to the higher number
+\end{lstlisting}
+
+
+\item{For Loops}
+\begin{lstlisting}
+
+	for (init; condition; inc/dec)
+	
+	for (int i = 0; i < 5; i++)
+	{
+		cout << "HELLO" << endl;
+	}
+	
+	
+	int arr[100];
+
+	for (int i = 0; i < 100; i++)
+	{
+		arr[i] = i;
+		cout << arr[i] << endl;
+	}
+
+\end{lstlisting}
+
+
+\item{Do Loops}
+\begin{lstlisting}
+
+	while (--i) // putting the increment before the variable, checks the "next" condition before executing loop
+	{
+		cout << i << endl;
+	}
+	
+	
+	int arr[sizeofarray];
+	
+	while(i < sizeofarray)
+	{
+		arr[i] = 10 * i;
+		cout << arr[i++] << endl; // First send to the ouput, then increment
+	}
+	
+	
+	do
+	{
+		cout << "lala";
+	} while (i); //check condition at end
+
+\end{lstlisting}
+
+
+
+\item{}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+
+
+\end{itemize}
+
+
+
+
+
+
+\section{Variables}
+
+\begin{itemize}
+
+\item{Arrays}
+\begin{lstlisting}
+	int arr[4];
+	arr[0] = 10;
+
+	int biarr[3][4] = { 0 };
+	int triarr[2][3][2];
+
+	// the first array item represents the address of the entire array as well:
+	cout << "Array address: " << &arr << endl;
+	
+	
+\end{lstlisting}
+
+\end{itemize}
+
+
+\end{document}
