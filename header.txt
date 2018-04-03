@@ -10,6 +10,12 @@ int main()
 
 
 
-	getchar();
+
+
+
+
+
+	cout << endl;
+	system("pause");
 	return 0;
 }
