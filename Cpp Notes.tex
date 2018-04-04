@@ -292,4 +292,81 @@ Continue keeps the loop going, break does not.
 \end{itemize}
 
 
+
+
+
+
+
+\section{Code snippets}
+
+\begin{itemize}
+
+\item{Data Validation}
+\begin{lstlisting}
+	
+bool isValid(string error_msg)
+{
+	if (cin.rdstate()) // state is wrong when not equal to zero
+	{
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		system("cls");
+		initMenu();
+		cout << error_msg << endl;
+		return false; // return leaves the function.
+	}
+	return true;
+}
+
+// This is used in the main code as follows:
+
+	do { cin >> a; } while (!isValid("The input is invalid"));
+	areaSquare(a);
+
+// Can also use an overload function without an error message:
+
+bool isValid()
+{
+	if (cin.rdstate()) // state is wrong when not equal to zero
+	{
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		system("cls");
+		initMenu();
+		return false; // return leaves the function.
+	}
+	return true;
+}
+
+// Used as follows:
+
+	do { cout << "Enter the radius: " << endl; cin >> r; } while (!isValid());
+	areaCircle(r);
+
+\end{lstlisting}
+
+
+
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\begin{lstlisting}
+
+\end{lstlisting}
+
+
+
+\end{itemize}
+
+
+
 \end{document}
