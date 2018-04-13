@@ -17,3 +17,21 @@
 	<cstdlib>
 	"other.h"
 
+1523656528 source:d:\code\cpp\mysterio\main.cpp
+	"other.h"
+
+1523655867 d:\code\cpp\mysterio\other.h
+	<limits>
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<unistd.h>
+	<dos.h>
+	<windows.h>
+	<cstdlib>
+	"other.h"
+
+1523656412 source:d:\code\cpp\mysterio\functions.cpp
+	"other.h"
+
