@@ -1,5 +1,3 @@
-#include "stdafx.h"
-#include <string>
 #include <iostream>
 
 using namespace std;
@@ -10,10 +8,9 @@ double power(double, int); //overloading the function, better to do this as it s
 int main()
 {
 
-	cout << power(2.5, 3) << endl; //C++ knows which function to use
+	cout << power(2.35, 18) << endl; //C++ knows which function to use
 
 	cout << endl;
-	system("pause");
 	return 0;
 }
 

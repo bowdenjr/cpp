@@ -1,8 +1,10 @@
 #include "stdafx.h"
 #include <string>
 #include <iostream>
+#include <limits>
 
 using namespace std;
+
 void initMenu();
 void menuDecision(int);
 double areaCircle(double);
@@ -31,7 +33,7 @@ int main()
 			system("cls");
 			initMenu();
 			cout << "You just entered an invalid input." << endl;
-		}		
+		}
 
 		menuDecision(choice);
 
@@ -44,6 +46,7 @@ int main()
 		} while (cont != 'Y' && cont != 'y' && cont != 'N' && cont != 'n');
 
 	} while (cont == 'y' || cont == 'Y');
+
 
 	cout << endl;
 	// system("pause");
@@ -61,6 +64,9 @@ void initMenu()
 
 
 }
+
+
+
 void menuDecision(int choice)
 {
 	double r, a, b, h;

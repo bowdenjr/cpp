@@ -34,21 +34,17 @@
 
 \section{Operators}
 
-\begin{itemize}
-\item Variable Address
-
+\subsection{Variable Address}
 \begin{lstlisting}
 	cout << &A << endl
 \end{lstlisting}
 
-\item Joining Strings
-
+\subsection{Joining Strings}
 \begin{lstlisting}
 	string combinedStrings = x + `` ''  + y; // just use plus to combine string
 \end{lstlisting}
 
-\item{Incrementing}
-
+\subsection{Incrementing}
 \begin{lstlisting}
 	cout << "INCREMENTATIAON EXAMPLES" << endl;
 	int d = 1;
@@ -62,18 +58,17 @@
 	cout << --e << endl; // decrements first (PRE-DECREMENTATION)
 \end{lstlisting}
 
-\item And (conjunction)
+\subsection{And (conjunction)}
 \begin{lstlisting}
 	cout << ((7 < 5) && (5 != 10)) << endl;
 \end{lstlisting}
 
-\item OR (disjunction)
-
+\subsection{OR (disjunction)}
 \begin{lstlisting}
 	cout << ((7 < 5) || (5 != 10)) << endl;
 \end{lstlisting}
 
-\item{Bitwise Operators}
+\subsection{Bitwise Operators}
 \begin{lstlisting}
 	/*
 	Bitwise AND - &
@@ -85,38 +80,15 @@
 	*/
 \end{lstlisting}
 
-\item{}
+\subsection{}
 \begin{lstlisting}
 
 \end{lstlisting}
-
-\item{}
-\begin{lstlisting}
-
-\end{lstlisting}
-
-\item{}
-\begin{lstlisting}
-
-\end{lstlisting}
-
-\item{}
-\begin{lstlisting}
-
-\end{lstlisting}
-
-\item{}
-\begin{lstlisting}
-
-\end{lstlisting}
-
-
 
 
 
 \section{Logic}
-
-\item{IF-THEN-ELSE}
+\subsection{IF-THEN-ELSE}
 \begin{lstlisting}
 	if (a > b) {
 		cout << a << " > " << b << endl;
@@ -128,7 +100,7 @@
 
 \end{lstlisting}
 
-\item{SWITCH-CASE}
+\subsection{SWITCH-CASE}
 Need to remember the break; command at the end of each case, or C++ will execute sequentially.
 \begin{lstlisting}
 	int x = 0;
@@ -150,7 +122,7 @@ Need to remember the break; command at the end of each case, or C++ will execute
 
 \end{lstlisting}
 
-\item{CONDITIONAL OPERATOR - ?}
+\subsection{CONDITIONAL OPERATOR - ?}
 \begin{lstlisting}
 	string message  = (a > b) ? "a > b" : "a <= b";
 
@@ -158,9 +130,8 @@ Need to remember the break; command at the end of each case, or C++ will execute
 \end{lstlisting}
 
 
-\item{For Loops}
+\subsection{For Loops}
 \begin{lstlisting}
-
 	for (init; condition; inc/dec)
 	
 	for (int i = 0; i < 5; i++)
@@ -179,10 +150,8 @@ Need to remember the break; command at the end of each case, or C++ will execute
 
 \end{lstlisting}
 
-
-\item{Do Loops}
+\subsection{Do Loops}
 \begin{lstlisting}
-
 	while (--i) // putting the increment before the variable, checks the "next" condition before executing loop
 	{
 		cout << i << endl;
@@ -207,13 +176,9 @@ Need to remember the break; command at the end of each case, or C++ will execute
 
 
 
-\item{Continue and Next}
-
+\subsection{Continue and Next}
 Continue keeps the loop going, break does not.
-
-\begin{lstlisting}
-	
-	
+\begin{lstlisting}	
 	for (int i = 1; i <= 10; i++) // i = 2
 	{
 		//if (i == 5)
@@ -233,8 +198,6 @@ Continue keeps the loop going, break does not.
 
 		cout << endl;
 	}
-
-	
 
 	for (int i = 1, j = 1; i <= 10; i++)
 	{
@@ -258,13 +221,11 @@ Continue keeps the loop going, break does not.
 
 
 
-\item{}
+\subsection{}
 
 \begin{lstlisting}
 
 \end{lstlisting}
-
-\end{itemize}
 
 
 
@@ -272,10 +233,7 @@ Continue keeps the loop going, break does not.
 
 
 \section{Variables}
-
-\begin{itemize}
-
-\item{Arrays}
+\subsection{Arrays}
 \begin{lstlisting}
 	int arr[4];
 	arr[0] = 10;
@@ -289,7 +247,39 @@ Continue keeps the loop going, break does not.
 	
 \end{lstlisting}
 
-\end{itemize}
+\subsection{Enumerations - Lecture 27}
+\begin{lstlisting}
+enum dayOfWeek {M, Tu, W, Th, F, Sa, Su}; //This is a "custom type", not a variable
+
+int main()
+{
+
+	int i;
+	//dayOfWeek d = Sa;
+
+	//cout << d << endl;
+	//cout << dayOfWeek(Tu) << endl;
+
+	cout << "Enter the day of a week " << endl;
+	cout << "1. Monday " << endl;
+	cout << "2. Tuesday " << endl;
+	//...
+
+	cin >> i;
+
+	// cout << getDay(Sa) << endl;
+	cout << getDay(dayOfWeek(i)) << endl;
+
+	cout << endl;
+	system("pause");
+	return 0;
+}
+
+\end{lstlisting}
+
+
+
+
 
 
 
@@ -298,12 +288,8 @@ Continue keeps the loop going, break does not.
 
 
 \section{Code snippets}
-
-\begin{itemize}
-
-\item{Data Validation}
-\begin{lstlisting}
-	
+\subsection{Data Validation}
+\begin{lstlisting}	
 bool isValid(string error_msg)
 {
 	if (cin.rdstate()) // state is wrong when not equal to zero
@@ -346,7 +332,6 @@ bool isValid()
 \end{lstlisting}
 
 
-
 \begin{lstlisting}
 
 \end{lstlisting}
@@ -359,13 +344,6 @@ bool isValid()
 
 \end{lstlisting}
 
-\begin{lstlisting}
-
-\end{lstlisting}
-
-
-
-\end{itemize}
 
 
 
