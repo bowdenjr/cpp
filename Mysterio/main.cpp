@@ -19,7 +19,6 @@ int main()
     char cont;
     do
     {
-
         system("cls");
         initmenu();
         choice();
