@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1523615450 source:c:\users\897333\documents\1.01 code\cpp\mysterio\main.cpp
+1523632236 source:c:\users\897333\documents\1.01 code\cpp\mysterio\main.cpp
+	"other.h"
+
+1523632162 source:c:\users\897333\documents\1.01 code\cpp\mysterio\functions.cpp
+	"other.h"
+
+1523632407 c:\users\897333\documents\1.01 code\cpp\mysterio\other.h
 	<limits>
 	<iostream>
 	<stdlib.h>
@@ -8,4 +14,6 @@
 	<unistd.h>
 	<dos.h>
 	<windows.h>
+	<cstdlib>
+	"other.h"
 
