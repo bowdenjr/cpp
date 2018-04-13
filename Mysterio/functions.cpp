@@ -14,9 +14,9 @@ void choice()
 
     do { cin >> x; } while (!isValid(x, "Think you're clever? I said enter a number between 1 and 100..."));
     cout << "OK, reading your mind... please wait..."  << endl;
-    sleep(5);
+    sleep(4);
     cout << "Please wait ..." << endl;
-    sleep(3);
+    sleep(2);
 
 //    if(x == 69)
 //    {
@@ -34,9 +34,9 @@ void choice()
         cout << "WAIT, THAT'S WRONG ISN'T IT... hang on." << endl;
         sleep(2);
         cout << "<Traceback, line 51> cin >> x " << endl;
-        sleep(2);
+        sleep(1);
         cout << "<Recall variable> x"<< endl;
-        sleep(2);
+        sleep(1);
         cout << "Just pretend you didn't see that!" << endl;
         sleep(3);
         cout << "Behold! Your number is... " << endl;
