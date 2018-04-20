@@ -13,7 +13,6 @@ int main()
 	a[0] = 0;
 	a[1] = 20;
 	a[2] = 40;
-	short int zm;
 	int * const p = &a[0];
 
 

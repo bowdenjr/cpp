@@ -11,7 +11,7 @@ int main()
 
 	int &c = swap(a,b);
 
-	c = 100;
+	// c = 100;
 
 	cout << "a: " << a << endl;
 	cout << "b: " << b << endl;

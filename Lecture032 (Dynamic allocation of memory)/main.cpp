@@ -73,7 +73,7 @@ int main()
 /*
 	DON'T DO THIS
 
-	int arr[amount]; // RESERVES MEMORY OUTSIDE OF PROGRAM. THIS DOES ENSURE THAT THE MEMORY IS FREE.
+	int arr[amount]; // RESERVES MEMORY OUTSIDE OF PROGRAM. THIS DOESN'T ENSURE THAT THE MEMORY IS FREE.
 
 	arr[0] = 500;
 	cout << arr[0] << endl;
