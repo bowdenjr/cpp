@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1524659257 source:c:\users\897333\documents\1.01 code\cpp\lecture043 (static methods and properties)\main.cpp
+	<iostream>
+	"user.h"
+
+1524660529 c:\users\897333\documents\1.01 code\cpp\lecture043 (static methods and properties)\user.h
+
+1524660259 source:c:\users\897333\documents\1.01 code\cpp\lecture043 (static methods and properties)\user.cpp
+	"user.h"
+
