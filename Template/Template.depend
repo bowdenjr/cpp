@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1524669386 source:d:\code\cpp\template\header01.cpp
+	"header01.h"
+	<iostream>
+
+1524669401 d:\code\cpp\template\header01.h
+

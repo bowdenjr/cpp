@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1524670167 source:d:\code\cpp\udemy\lecture044 (constant classes)\main.cpp
+	<iostream>
+	"header01.h"
+
+1524670207 d:\code\cpp\udemy\lecture044 (constant classes)\header01.h
+
+1524670216 source:d:\code\cpp\udemy\lecture044 (constant classes)\header01.cpp
+	"header01.h"
+	<iostream>
+
