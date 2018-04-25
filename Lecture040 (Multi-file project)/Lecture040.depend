@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1524571509 source:c:\users\897333\documents\1.01 code\cpp\lecture040 (multi-file project)\main.cpp
+	<iostream>
+	"ourfirstlibrary.h"
+
+1524571706 c:\users\897333\documents\1.01 code\cpp\lecture040 (multi-file project)\ourfirstlibrary.h
+	<iostream>
+
+1524571481 source:c:\users\897333\documents\1.01 code\cpp\lecture040 (multi-file project)\ourfirstlibrary.cpp
+	<iostream>
+	"ourfirstlibrary.h"
+
