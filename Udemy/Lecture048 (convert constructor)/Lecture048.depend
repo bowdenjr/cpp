@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1524755669 source:c:\users\897333\documents\1.01 code\cpp\udemy\lecture048 (convert constructor)\header.cpp
+	"header.h"
+	<iostream>
+
+1524755506 c:\users\897333\documents\1.01 code\cpp\udemy\lecture048 (convert constructor)\header.h
+
+1524755781 source:c:\users\897333\documents\1.01 code\cpp\udemy\lecture048 (convert constructor)\main.cpp
+	<iostream>
+	"header.h"
+

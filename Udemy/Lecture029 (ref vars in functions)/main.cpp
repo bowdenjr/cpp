@@ -2,16 +2,16 @@
 
 using namespace std;
 
-int & swap(int &, int &);
+int& swap(int &, int &);
 
 int main()
 {
 	int a = 10;
 	int b = 20;
 
-	int &c = swap(a,b);
+	int &c = swap(a,b); //Reference function
 
-	// c = 100;
+//	 c = 100;
 
 	cout << "a: " << a << endl;
 	cout << "b: " << b << endl;
@@ -22,9 +22,9 @@ int main()
 	return 0;
 }
 
-int & swap(int &a_, int &b_) //Returns the reference
+int & swap(int &a_, int &b_) //Returns the reference and takes two addresses?
 {
-	int t;
+	int t; //Temporary variable for swapping
 	t = a_;
 	a_ = b_;
 	b_ = t;
