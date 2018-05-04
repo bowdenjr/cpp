@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1525449495 source:c:\users\897333\documents\1.01 code\cpp\udemy\lecture049 (class inheritance)\header.cpp
+	"header.h"
+	<iostream>
+
+1525449535 c:\users\897333\documents\1.01 code\cpp\udemy\lecture049 (class inheritance)\header.h
+
+1525449204 source:c:\users\897333\documents\1.01 code\cpp\udemy\lecture049 (class inheritance)\main.cpp
+	<iostream>
+	"header.h"
+
