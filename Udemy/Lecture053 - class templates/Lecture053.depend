@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1525887736 source:d:\code\cpp\udemy\lecture053 - class templates\header01.cpp
+	"header01.h"
+	<iostream>
+
+1525889432 d:\code\cpp\udemy\lecture053 - class templates\header01.h
+	<iostream>
+
+1525889398 source:d:\code\cpp\udemy\lecture053 - class templates\main.cpp
+	<iostream>
+	"header01.h"
+

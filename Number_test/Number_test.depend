@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1524669386 source:d:\code\cpp\number_test\header01.cpp
+	"header01.h"
+	<iostream>
+
+1524669401 d:\code\cpp\number_test\header01.h
+
+1525890582 source:d:\code\cpp\number_test\main.cpp
+	<iostream>
+	"header01.h"
+	<limits>
+
