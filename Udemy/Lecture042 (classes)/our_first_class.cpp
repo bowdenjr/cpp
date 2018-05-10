@@ -16,7 +16,7 @@ void personalData::setAge(int age)//:: is the scope operator (goes inside the cl
 
 // Making custom functions to set private variables. This is best practice because we don't want "hackers" to access these. If also allows us to validate entry to the class's variables.
 
-personalData::personalData()
+personalData::personalData() //CONSTRUCTOR
 {
     static int i = 0; // static variables are only created once, and is shared amongst instances of classes.
     cout << "Constructor has been invoked - " << ++i << endl;

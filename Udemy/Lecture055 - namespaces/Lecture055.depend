@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1524754669 source:c:\users\897333\documents\1.01 code\cpp\udemy\lecture055 - namespaces\header.cpp
+	"header.h"
+	<iostream>
+
+1524754676 c:\users\897333\documents\1.01 code\cpp\udemy\lecture055 - namespaces\header.h
+
+1525972901 source:c:\users\897333\documents\1.01 code\cpp\udemy\lecture055 - namespaces\main.cpp
+	<iostream>
+	"header.h"
+
