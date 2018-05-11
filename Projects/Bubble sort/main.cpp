@@ -1,24 +1,19 @@
-#include <iostream>
 #include "header01.h"
-
 using namespace std;
-
-
 
 int main()
 {
+    vector<int> * pointerToVector = createArray();
 
-    int *p;
+    cout << "BEFORE SORTING: " << endl;
+    printArray(pointerToVector);
 
-    createArray(*p);
+    vector<int> * pointerToSortedVector = bubbleSort(pointerToVector);
 
+    cout << "AFTER SORTING: " << endl;
+    printArray(pointerToSortedVector);
 
-
-    cout << p << endl;
-
-
-
-    delete p;
+    delete pointerToVector;
 
     return 0;
 }

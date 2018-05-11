@@ -10,3 +10,16 @@
 	"header01.h"
 	<limits>
 
+1526030392 source:c:\users\897333\documents\1.01 code\cpp\projects\number_test\header01.cpp
+	"header01.h"
+	<iostream>
+
+1526050023 c:\users\897333\documents\1.01 code\cpp\projects\number_test\header01.h
+	<limits>
+	<iostream>
+
+1526049951 source:c:\users\897333\documents\1.01 code\cpp\projects\number_test\main.cpp
+	<iostream>
+	"header01.h"
+	<limits>
+

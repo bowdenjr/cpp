@@ -35,3 +35,21 @@
 1523656412 source:d:\code\cpp\mysterio\functions.cpp
 	"other.h"
 
+1526030392 source:c:\users\897333\documents\1.01 code\cpp\projects\mysterio\functions.cpp
+	"other.h"
+
+1526030392 c:\users\897333\documents\1.01 code\cpp\projects\mysterio\other.h
+	<limits>
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<unistd.h>
+	<dos.h>
+	<windows.h>
+	<cstdlib>
+	"other.h"
+
+1526030392 source:c:\users\897333\documents\1.01 code\cpp\projects\mysterio\main.cpp
+	"other.h"
+

@@ -38,7 +38,7 @@ void lottery(int total_balls, int balls_to_draw)
 			if(balls[i] == balls[j] && i != j)
 			{
 				i--; //reverse back and draw again
-				break;
+				break; //exit the for j loop
 			}
 			else if (j == i)
 				cout << balls[i] << endl;

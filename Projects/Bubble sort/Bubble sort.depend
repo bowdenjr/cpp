@@ -9,3 +9,17 @@
 	<iostream>
 	"header01.h"
 
+1526054870 source:c:\users\897333\documents\1.01 code\cpp\projects\bubble sort\header01.cpp
+	"header01.h"
+	<iostream>
+
+1526054838 c:\users\897333\documents\1.01 code\cpp\projects\bubble sort\header01.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+	<vector>
+	<limits>
+
+1526053107 source:c:\users\897333\documents\1.01 code\cpp\projects\bubble sort\main.cpp
+	"header01.h"
+
