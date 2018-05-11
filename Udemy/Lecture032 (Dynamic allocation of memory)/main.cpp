@@ -6,37 +6,34 @@ using namespace std;
 
 int main()
 {
-//	int var = 41240;
-//	int amount;
-////
-//	cout << "How many numbers would you like to store in an array?" << endl;
-//	cin >> amount;
-//
-//	int * p = new (nothrow) int[amount];
-//
-//	if(p!=NULL)
-//	{
-//
-//		for(int i = 0; i < amount; i++)
-//		{
-//			cout << "Enter the " << (i+1) << " number." << endl;
-//			cin >> p[i];
-//
-//		}
-//
-//		for(int i = 0; i < amount; i++)
-//		{
-//			cout << "p [ " << i << " ] = " << p[i] << endl;
-//
-//
-//		}
-//
-//	}
-//	else
-//		cout << "Insufficient memory " << endl;
-//
+	int var = 41240;
+	int amount;
 
-	// cout << *(new int) << endl; // ALLOCATES MEMORY DYNAMICALLY
+	cout << "How many numbers would you like to store in an array?" << endl;
+	cin >> amount;
+
+	int * p = new (nothrow) int[amount];
+
+	if(p!=NULL)
+	{
+		for(int i = 0; i < amount; i++)
+		{
+			cout << "Enter the " << (i+1) << " number." << endl;
+			cin >> p[i];
+		}
+
+		for(int i = 0; i < amount; i++)
+		{
+			cout << "p [ " << i << " ] = " << p[i] << endl;
+		}
+
+	}
+	else
+		cout << "Insufficient memory " << endl;
+
+
+	 cout << *(new int) << endl; // ALLOCATES MEMORY DYNAMICALLY
+
 /*
 	{ // IN CURLY BRACES SO MAKES IT LOCAL
 		int *p = new int; // Storing the address of my new variable in a pointer

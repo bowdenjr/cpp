@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1526029337 source:d:\code\cpp\projects\bubble sort\header01.cpp
+	"header01.h"
+	<iostream>
+
+1526029012 d:\code\cpp\projects\bubble sort\header01.h
+
+1526029344 source:d:\code\cpp\projects\bubble sort\main.cpp
+	<iostream>
+	"header01.h"
+
