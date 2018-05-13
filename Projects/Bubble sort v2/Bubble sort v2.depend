@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1526214508 source:d:\code\cpp\projects\bubble sort v2\main.cpp
+	"header01.h"
+
+1526214100 d:\code\cpp\projects\bubble sort v2\header01.h
+	<iostream>
+	<random>
+	<time.h>
+	<vector>
+	<limits>
+	<iterator>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1526214237 source:d:\code\cpp\projects\bubble sort v2\header01.cpp
+	"header01.h"
+

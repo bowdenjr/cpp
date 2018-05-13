@@ -3,24 +3,27 @@
 
 using namespace std;
 
-vector<int> * createArray()
+vector<long> * createArray()
 {
-	srand(time(0));
-	int sizeOfVector;
+	long sizeOfVector;
 
     cout << "How large do you want your sorting vector to be?" << endl;
-    cin >> sizeOfVector; //  TO DO - INSERT CHECK THAT THE USER DOESN'T ENTER AN ARRAY LARGE THAN THE CAPACITY OF RAND_MAX
+    do{cin >> sizeOfVector;} while (!isValid());
+
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_int_distribution<> dis(1, pow(sizeOfVector,10));
 
 	try
 	{
-		vector<int> * pointerToVector = new vector<int>(sizeOfVector);
+		vector<long> * pointerToVector = new vector<long>(sizeOfVector);
 
 		//FILL VECTOR WITH RANDOM NUMBERS
-		for(int i=0; i<sizeOfVector; i++)
+		for(long i=0; i<sizeOfVector; i++)
 		{
-			pointerToVector->at(i) = rand();
+			pointerToVector->at(i) = dis(gen);
 
-			for(int j = 0; j < (i + 1); j++) //Check for no duplication
+			for(long j = 0; j < (i + 1); j++) //Check for no duplication
 			{
 				if(pointerToVector->at(i) == pointerToVector->at(j) && i != j)
 				{
@@ -39,9 +42,9 @@ vector<int> * createArray()
 
 }
 
-void printArray(vector<int> * pointerToVector)
+void printArray(vector<long> * pointerToVector)
 {
-	for(int i = 0; i < pointerToVector->size(); i++) //Print the array
+	for(long i = 0; i < pointerToVector->size(); i++) //Print the array
 	{
 		cout << "vec[" << i << "] = " << pointerToVector->at(i) << endl;
 	}
@@ -50,16 +53,14 @@ void printArray(vector<int> * pointerToVector)
 
 }
 
-vector<int>* bubbleSort(vector<int> * pointerToUnsortedVector)
+vector<long>* bubbleSort(vector<long> * pointerToUnsortedVector)
 {
-
-
 	try
 	{
-		vector<int> * pointerToSortedVector = new vector<int>(pointerToUnsortedVector->size());
+		vector<long> * pointerToSortedVector = new vector<long>(pointerToUnsortedVector->size());
 		bool swapped = false;
 
-		for(int i = 0; i < pointerToUnsortedVector->size();i++)
+		for(long i = 0; i < pointerToUnsortedVector->size();i++)
 		{
 			pointerToSortedVector->at(i) = pointerToUnsortedVector->at(i);
 		}
@@ -68,7 +69,7 @@ vector<int>* bubbleSort(vector<int> * pointerToUnsortedVector)
 		{
 			swapped = false;
 
-			for(int i = 0; i < pointerToSortedVector->size()-1; i++)
+			for(long i = 0; i < pointerToSortedVector->size()-1; i++)
 			{
 				if(pointerToSortedVector->at(i) > pointerToSortedVector->at(i+1))
 				{
@@ -85,4 +86,16 @@ vector<int>* bubbleSort(vector<int> * pointerToUnsortedVector)
 		cout << "Unspecified error in Bubble Sort" << endl;
 		return 0;
 	}
+}
+bool isValid()
+{
+	if (cin.rdstate()) // state is wrong when not equal to zero
+	{
+	    cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		system("cls");
+		exit(1);
+		return false; // return leaves the function.
+	}
+	return true;
 }

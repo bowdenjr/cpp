@@ -6,13 +6,11 @@
 #include <time.h>
 #include <vector>
 #include <limits>
+#include <fstream>
 
-using namespace std;
 
-vector<long>* createArray();
-vector<long>* bubbleSort(vector<long>*);
-void printArray(vector<long>*);
-bool isValid();
 
+int getValidInput();
+void generateRandomsToCSV(int, int);
 
 #endif // HEADER01_H_INCLUDED
