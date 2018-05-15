@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1526313109 source:c:\users\897333\documents\1.01 code\cpp\projects\quicksort\header.cpp
+	"header.h"
+
+1526308669 c:\users\897333\documents\1.01 code\cpp\projects\quicksort\header.h
+	<iostream>
+	<random>
+	<time.h>
+	<vector>
+	<limits>
+	<iterator>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1526308634 source:c:\users\897333\documents\1.01 code\cpp\projects\quicksort\main.cpp
+	"header.h"
+

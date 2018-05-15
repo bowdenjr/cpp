@@ -14,3 +14,18 @@
 1526213317 source:d:\code\cpp\projects\random number generator to csv\header01.cpp
 	"header01.h"
 
+1526293322 source:c:\users\897333\documents\1.01 code\cpp\projects\random number generator to csv\header01.cpp
+	"header01.h"
+
+1526293322 c:\users\897333\documents\1.01 code\cpp\projects\random number generator to csv\header01.h
+	<iostream>
+	<random>
+	<time.h>
+	<vector>
+	<limits>
+	<fstream>
+
+1526293322 source:c:\users\897333\documents\1.01 code\cpp\projects\random number generator to csv\main.cpp
+	<iostream>
+	"header01.h"
+
