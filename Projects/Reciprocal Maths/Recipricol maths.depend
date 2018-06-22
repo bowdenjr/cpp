@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1529588605 source:c:\users\897333\documents\1.01 code\cpp\projects\reciprocal maths\header.cpp
+	"header.h"
+
+1529586817 c:\users\897333\documents\1.01 code\cpp\projects\reciprocal maths\header.h
+	<iostream>
+	<random>
+	<time.h>
+	<vector>
+	<limits>
+	<fstream>
+
+1529588557 source:c:\users\897333\documents\1.01 code\cpp\projects\reciprocal maths\main.cpp
+	<iostream>
+	"header.h"
+
