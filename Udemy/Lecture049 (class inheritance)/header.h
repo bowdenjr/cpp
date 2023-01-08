@@ -12,7 +12,7 @@ class Point // Base, parent or super class.
         void setx(int);
 };
 
-class Point2D : public Point // INHERIT - copies the declaration (int his header file) and the definitions (in header.cpp). Derived, child or sub class
+class Point2D : public Point // INHERIT - copies the declaration (in this header file) and their definitions (in header.cpp). This is called a derived, child or sub class
 {
     protected:
         int y;

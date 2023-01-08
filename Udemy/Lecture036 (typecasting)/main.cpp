@@ -29,8 +29,9 @@ int main()
 
 
 	char ch;
+	cout << "Input a character..." << endl;
 	cin >> ch;
-	cout << (int)ch << endl;
+	cout << (int)ch << endl; // Returns ASCII reference number
 	cout << endl;
 	return 0;
 }

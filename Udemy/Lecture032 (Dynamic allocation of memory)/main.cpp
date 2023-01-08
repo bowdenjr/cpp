@@ -56,14 +56,14 @@ int main()
 	}
 */
 
-	int *p = new int;
-	cout << p << endl;
+//	int *p = new int;
+//	cout << p << endl;
 
 	delete p; // If you always remember to delete the pointer, the new assigning will use the same address. If you forget, it won't.
 
-	p = new int;
-
-	cout << p << endl;
+//	p = new int;
+//
+//	cout << p << endl;
 
 
 
